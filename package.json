@@ -1,0 +1,25 @@
+{
+  "name": "proxmox-ip-scanner",
+  "version": "1.0.0",
+  "description": "Search a list of CLDRs in a Files for insecure Proxmox hosts - Used to help create firewall rules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGSteven/Proxmox-IP-Scanner.git"
+  },
+  "author": "Steven Smith (@IGSteven)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/IGSteven/Proxmox-IP-Scanner/issues"
+  },
+  "homepage": "https://github.com/IGSteven/Proxmox-IP-Scanner#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "ipterate": "^1.1.1",
+    "readline": "^1.3.0"
+  }
+}
